@@ -1,0 +1,32 @@
+{
+  "name": "new-object",
+  "version": "3.0.0",
+  "description": "Creates an object from an array of entries, in imitation of the Map constructor.",
+  "keywords": [
+    "new",
+    "object",
+    "constructor",
+    "entries",
+    "key",
+    "value"
+  ],
+  "author": "John Lamansky",
+  "license": "MIT",
+  "homepage": "https://github.com/lamansky/new-object",
+  "repository": "lamansky/new-object",
+  "main": "index.js",
+  "files": [],
+  "devDependencies": {
+    "eslint-config-lamansky": "^1.0.0",
+    "mocha": "^3.2.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "eslintConfig": {
+    "extends": "lamansky",
+    "env": {
+      "mocha": true
+    }
+  }
+}
