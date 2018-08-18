@@ -10,9 +10,11 @@
     "key",
     "value"
   ],
-  "author": "John Lamansky",
+  "author": {
+    "name": "Fr. John Lamansky",
+    "url": "lamansky.com"
+  },
   "license": "MIT",
-  "homepage": "https://github.com/lamansky/new-object",
   "repository": "lamansky/new-object",
   "main": "index.js",
   "files": [],
