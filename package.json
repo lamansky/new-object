@@ -1,6 +1,6 @@
 {
   "name": "new-object",
-  "version": "3.0.0",
+  "version": "3.1.0",
   "description": "Creates an object from an array of entries, in imitation of the Map constructor.",
   "keywords": [
     "new",
