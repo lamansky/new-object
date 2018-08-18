@@ -18,6 +18,12 @@
   "repository": "lamansky/new-object",
   "main": "index.js",
   "files": [],
+  "engines": {
+    "node": ">=6.0.0"
+  },
+  "dependencies": {
+    "errate": "^1.1.0"
+  },
   "devDependencies": {
     "eslint-config-lamansky": "^1.0.0",
     "mocha": "^5.2.0"

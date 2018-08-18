@@ -28,4 +28,10 @@ describe('newObject()', function () {
   it('should throw a TypeError if an entry is not an object', function () {
     assert.throws(() => { newObject(['a', 'b']) }, TypeError)
   })
+
+  it('should throw on key duplication if `throwIfEquivKeys` is set', function () {
+    newObject([[1, 1], [1, 1]])
+    assert.throws(() => { newObject([[1, 1], [1, 1]], {throwIfEquivKeys: true}) }, TypeError)
+    assert.throws(() => { newObject([[1, 1], [1, 1]], {throwIfEquivKeys: new RangeError()}) }, RangeError)
+  })
 })
